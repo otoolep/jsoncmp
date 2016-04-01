@@ -5,8 +5,6 @@ import os
 import argparse
 import sys
 
-
-
 def main():
     p = argparse.ArgumentParser(description='Compare two JSON data sets')
     p.add_argument('file1', metavar='FILE', type=str, help='path to first input file')
