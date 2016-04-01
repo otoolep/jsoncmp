@@ -1,6 +1,6 @@
 # jsoncmp
 
-Simple program to compare the data in two files, stored in two files.
+Simple program to compare the data in two files, stored in JSON format.
 
 ## Usage
 ```bash
