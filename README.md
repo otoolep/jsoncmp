@@ -4,7 +4,7 @@ Simple program to compare the data in two files, stored in JSON format.
 
 ## Usage
 ```bash
-$ jsoncmp.py -h
+$ python jsoncmp.py -h
 usage: jsoncmp.py [-h] FILE FILE
 
 Compare two JSON data sets
