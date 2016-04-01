@@ -23,7 +23,7 @@ def main():
             files.append(open(f))
         except IOError:
             print 'failed to open file %s' % f
-            sys.exit(1)
+            sys.exit(2)
 
     data1 = json.load(files[0])
     data2 = json.load(files[1])
@@ -32,6 +32,7 @@ def main():
         print 'Data are identical.'
     else:
         print 'Data are NOT identical.'
+        sys.exit(1)
 
 if __name__ == '__main__':
     main()
